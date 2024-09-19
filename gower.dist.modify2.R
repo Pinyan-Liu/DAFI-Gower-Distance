@@ -1,5 +1,5 @@
 # Function to compute Gower's distance between two observations
-gower.dist.modify2 <- function(data.x, data.y = data.x, rngs = NULL, KR.corr = TRUE,
+gower.dist.modify <- function(data.x, data.y = data.x, rngs = NULL, KR.corr = TRUE,
                       var.weights = NULL, robcb=NULL){
   
   ####################    
